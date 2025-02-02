@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ERMicroservices
+  profiles:
+    active: dev # Activar por defecto el perfil de desarrollo
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/eldenring
+      database: eldenring
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  kafka:
+    bootstrap-servers: localhost:9092
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+security:
+    jwt:
+        secret: mySecretKey
+        expiration: 86400  # 24 horas en segundos
