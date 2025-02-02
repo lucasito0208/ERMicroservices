@@ -1,7 +1,7 @@
 # ERMicroservices
 Proyecto basado en micro-servicios que utiliza el lore de EldenRing para reflejar la comunicación entre servicios. 
 
-![Arquitectura del proyecto]([EsquemaProyectoERMicroservices.png](https://github.com/lucasito0208/ERMicroservices/issues/1#issue-2826085512))
+![EsquemaProyectoERMicroservices.png](https://github.com/lucasito0208/ERMicroservices/issues/1#issue-2826085512)
 
 
 ## 🚀 Características del Proyecto
