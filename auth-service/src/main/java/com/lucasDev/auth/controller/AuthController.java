@@ -1,2 +1,4 @@
-package com.lucasDev.auth.controller;public class AuthController {
+package com.lucasDev.auth.controller;
+
+public class AuthController {
 }

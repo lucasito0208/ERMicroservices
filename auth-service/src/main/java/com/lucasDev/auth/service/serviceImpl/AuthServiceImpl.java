@@ -1,2 +1,4 @@
-package com.lucasDev.auth.service.serviceImpl;public class AuthServiceImpl {
+package com.lucasDev.auth.service.serviceImpl;
+
+public class AuthServiceImpl {
 }

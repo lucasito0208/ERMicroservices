@@ -1,10 +1,11 @@
-package com.lucasDev.auth.service.serviceImpl;
+package com.lucasDev.auth.service;
 
 
-import org.springframework.stereotype.Service;
+import com.lucasDev.auth.model.RolTipo;
+import com.lucasDev.auth.model.Usuario;
 
-@Service
 public interface UsuarioService {
 
+    Usuario asignarRolUsuario(Long idUsuario, RolTipo tipoRol);
 
 }

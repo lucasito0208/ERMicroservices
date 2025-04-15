@@ -1,2 +1,4 @@
-package com.lucasDev.auth.service;public interface AuthService {
+package com.lucasDev.auth.service;
+
+public interface AuthService {
 }

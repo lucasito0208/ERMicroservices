@@ -17,8 +17,8 @@ spring:
 
 security:
     jwt:
-        secret: mySuperSecretKey
-        expiration: 3600000  # 1 hora en milisegundos
+        secret: leçoins_marahenses
+        expiration: 3600000 
 
 eureka:
   client:
